@@ -1,0 +1,50 @@
+.body{
+    /* padding:100px; */
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+
+    
+}
+.destination-div{
+    border:2px solid;
+    width:50%;
+    padding:0 auto;
+    margin:0 auto;
+
+}
+.img-div{
+    display:flex;
+    justify-content:space-between;
+    /* width:70%; */
+    padding:50px;
+    margin: auto;
+    height:300px
+}
+.paris-div{
+    text-align:center;
+}
+.bahamas-div{
+    text-align:center;
+}
+.paris {
+    width:200px;
+    height:200px
+}
+.bahamas {
+    width:200px;
+    height:200px
+}
+.reset-btn{
+    position: relative;
+    left:350px;
+    margin-bottom:50px;
+    border-radius:5px;
+    height:40px;
+    width:70px;
+    background-color: rgb(78, 31, 31);
+    color:white;
+    outline: none;
+    cursor: pointer;
+    border:none;
+}
